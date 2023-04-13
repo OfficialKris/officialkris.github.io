@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: #1e1e1e;
+}
+
+.button-header {
+    width: 10em;
+    height: 4em;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+header {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+}
+
+.fit-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    max-width: 90%;
+    max-height: 90%;
+    object-position: right top;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}

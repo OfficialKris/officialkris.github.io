@@ -1,5 +1,7 @@
 a {
+    margin-left: 5em;
     text-decoration: none;
+    flex: 3;
 }
 
 :visited {
@@ -19,6 +21,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+form {
+    flex: 2;
+}
+
 button {
     font-family: inherit;
     color: inherit;
@@ -27,6 +33,7 @@ button {
 
 button:hover {
     background-color: #1e1e1e;
+    cursor: pointer;
 }
 
 .button-header {
@@ -83,6 +90,7 @@ footer a {
     align-content: space-around;
     margin: 1em;
     padding: .25em;
+    font-size: 18px;
 }
 
 footer a img,

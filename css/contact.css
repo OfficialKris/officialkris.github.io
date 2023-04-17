@@ -13,9 +13,16 @@ main a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
 }
 
-main a img, main a p {
+main a img { 
     margin: .25em;
+    height: 2em;
+}
+
+main a p {
+    margin: .25em;
+    font-size: 20px;
 }

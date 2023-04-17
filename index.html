@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <style></style>
     <link rel="stylesheet" href="css/main.css">
@@ -7,17 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Portfolio Page</h1>
+        <a href="/index.html">
+            <h1>Portfolio Page</h1>
+        </a>
         <form action="/story.html">
-            <button class="button-header">Story</button>
+            <button class="button-header" id="button-story">Story</button>
         </form>
         <form action="/projects.html">
-            <button class="button-header">Projects</button>
+            <button class="button-header" id="button-projects">Projects</button>
         </form>
         <form action="/contact.html">
-            <button class="button-header">Contact</button>
+            <button class="button-header" id="button-contact">Contact</button>
         </form>
     </header>
     <main>
@@ -32,9 +36,12 @@
                 the journey behind my work
             </p>
         </div>
-        <img class="fit-image" src="img/boat.jpg">
+        <div class="index-background-image background-image-with-gradient "></div>
     </main>
     <footer>
-
+        <a href="https://linkedin.com" target="_blank">
+            <img style="width:1em" src="img/linkedin.png">
+            <p>LinkedIn</p>
+        </a>
     </footer>
 </body>

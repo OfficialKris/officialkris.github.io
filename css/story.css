@@ -1,0 +1,37 @@
+#button-story {
+    background-color: #002E59;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    flex: 1;
+}
+
+li {
+    max-height: 90%;
+    max-width: 100%;
+    padding: 30vh 10vw;
+    background-color: gray;
+    background-position: center center;
+    background-size: cover; 
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+#story-list-item-1 {
+    background-image: url('../img/old-computer.webp');
+}
+
+#story-list-item-2 {
+    background-image: url('../img/boat.jpg');
+}
+
+#story-list-item-3 {
+    background-image: url('../img/nasa.jpg');
+}

@@ -2,6 +2,7 @@ a {
     margin-left: 5em;
     text-decoration: none;
     flex: 3;
+    color: white;
 }
 
 :visited {

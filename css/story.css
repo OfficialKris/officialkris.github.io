@@ -2,8 +2,6 @@
     background-color: #002E59;
 }
 
-body {}
-
 main {
     margin: 5em;
 }
@@ -29,10 +27,6 @@ li {
     background-size: cover;
     overflow: hidden;
     border-radius: 2%;
-}
-
-.image-icon {
-    /* display: flex; */
 }
 
 .image-icon:hover {
